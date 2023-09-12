@@ -1,0 +1,12 @@
+spring:
+    data:
+    mongodb:
+        #uri: mongodb://13.124.201.233:56468/openDart
+        host: 13.124.201.233
+        port: 56468
+        authentication-database: admin
+        username: root
+        password: admin
+        database: openDart
+server:
+    port: 8888
